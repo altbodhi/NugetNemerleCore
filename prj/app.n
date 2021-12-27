@@ -1,0 +1,23 @@
+using System.Console;
+using System.Threading;
+using System;
+
+CursorVisible = false;
+while(true) {
+    for(mutable i=0; i< 79; i++) {
+        Clear();
+        SetCursorPosition(0,10);
+            
+        for(mutable j=0; j<i; j++) 
+            Write(if( i - j > 3) " " else "-");
+        
+        def rotor = e => {
+            SetCursorPosition(i, 10);
+            Write(e); Thread.Sleep(100);
+        };
+
+        foreach(c in ["-", "/", "|", "\\", "-", "+", "*"])
+            rotor(c);        
+    }
+}
+

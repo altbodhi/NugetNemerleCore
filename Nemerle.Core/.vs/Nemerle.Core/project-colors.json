@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7ba639af-3a6f-4ecf-b83c-8a0027af7426": {
+      "ProjectGuid": "7ba639af-3a6f-4ecf-b83c-8a0027af7426",
+      "DisplayName": "Nemerle.Core",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

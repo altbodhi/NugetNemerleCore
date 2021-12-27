@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk" InitialTargets="PrintMessages">
+  <Target Name="PrintMessages">
+    <Message Text="BLA-BLA = $(Nemerle)" />
+  </Target>
+  <PropertyGroup>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <NoStdLib>True</NoStdLib>
+    <OutputType>exe</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>6.0</TargetFrameworkVersion>
+    <TargetFramework>net6.0</TargetFramework>
+    <LibraryTargetFrameworks>net6.0</LibraryTargetFrameworks>
+    <RuntimeOutputTargetFrameworks>net6.0</RuntimeOutputTargetFrameworks>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <UseWindowsForms>false</UseWindowsForms>
+    <UseWPF>false</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nemerle.Core" GeneratePathProperty="true" />
+  </ItemGroup>
+
+  <Import Project="$(PkgNemerle_Core)/content/Nemerle.MSBuild.targets" />
+
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Reference Include="Nemerle">
+      <HintPath>$(Nemerle)/Nemerle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

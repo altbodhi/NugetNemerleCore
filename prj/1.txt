@@ -1,0 +1,192 @@
+Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+/home/noname/.dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/Sdk/Sdk.targets(37,3): warning MSB4011: "/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.targets" cannot be imported again. It was already imported at "/home/noname/.nuget/packages/nemerle.core/1.1.0/content/Nemerle.MSBuild.targets (38,3)". This is most likely a build authoring error. This subsequent import will be ignored. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+/home/noname/.dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/Sdk/Sdk.targets(37,3): warning MSB4011: "/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.targets" cannot be imported again. It was already imported at "/home/noname/.nuget/packages/nemerle.core/1.1.0/content/Nemerle.MSBuild.targets (38,3)". This is most likely a build authoring error. This subsequent import will be ignored. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "mscorlib". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "mscorlib". Choosing "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "System.Core". Choosing "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "System". Choosing "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+  Consider app.config remapping of assembly "netstandard, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" from Version "2.0.0.0" [] to Version "2.1.0.0" [/home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/netstandard.dll] to solve conflict and get rid of warning.
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3276: Found conflicts between different versions of the same dependent assembly. Please set the "AutoGenerateBindingRedirects" property to true in the project file. For more information, see http://go.microsoft.com/fwlink/?LinkId=294190. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/Microsoft.CSharp.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/Microsoft.VisualBasic.Core.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/Microsoft.VisualBasic.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/Microsoft.Win32.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/Microsoft.Win32.Registry.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/mscorlib.dll
+ref = /home/noname/.nuget/packages/nemerle.core/1.1.0/contentFiles/any/netstandard2.0/Nemerle.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/netstandard.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.AppContext.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Buffers.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Collections.Concurrent.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Collections.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Collections.Immutable.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Collections.NonGeneric.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Collections.Specialized.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.Annotations.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.DataAnnotations.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.EventBasedAsync.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ComponentModel.TypeConverter.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Configuration.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Console.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Core.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Data.Common.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Data.DataSetExtensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Data.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.Contracts.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.Debug.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.DiagnosticSource.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.FileVersionInfo.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.Process.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.StackTrace.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.TextWriterTraceListener.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.Tools.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.TraceSource.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Diagnostics.Tracing.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Drawing.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Drawing.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Dynamic.Runtime.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Formats.Asn1.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Globalization.Calendars.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Globalization.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Globalization.Extensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Compression.Brotli.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Compression.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Compression.FileSystem.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Compression.ZipFile.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.FileSystem.AccessControl.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.FileSystem.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.FileSystem.DriveInfo.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.FileSystem.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.FileSystem.Watcher.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.IsolatedStorage.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.MemoryMappedFiles.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Pipes.AccessControl.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.Pipes.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.IO.UnmanagedMemoryStream.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Linq.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Linq.Expressions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Linq.Parallel.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Linq.Queryable.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Memory.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Http.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Http.Json.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.HttpListener.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Mail.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.NameResolution.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.NetworkInformation.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Ping.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Requests.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Security.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.ServicePoint.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.Sockets.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.WebClient.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.WebHeaderCollection.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.WebProxy.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.WebSockets.Client.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Net.WebSockets.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Numerics.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Numerics.Vectors.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ObjectModel.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.DispatchProxy.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Emit.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Emit.ILGeneration.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Emit.Lightweight.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Extensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Metadata.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Reflection.TypeExtensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Resources.Reader.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Resources.ResourceManager.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Resources.Writer.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.CompilerServices.VisualC.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Extensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Handles.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.InteropServices.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Intrinsics.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Loader.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Numerics.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Serialization.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Serialization.Formatters.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Serialization.Json.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Serialization.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Runtime.Serialization.Xml.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.AccessControl.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Claims.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.Algorithms.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.Cng.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.Csp.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.Encoding.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.OpenSsl.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.Primitives.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Cryptography.X509Certificates.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Principal.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.Principal.Windows.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Security.SecureString.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ServiceModel.Web.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ServiceProcess.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.Encoding.CodePages.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.Encoding.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.Encoding.Extensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.Encodings.Web.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.Json.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Text.RegularExpressions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Channels.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Overlapped.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Tasks.Dataflow.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Tasks.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Tasks.Extensions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Tasks.Parallel.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Thread.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.ThreadPool.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Threading.Timer.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Transactions.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Transactions.Local.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.ValueTuple.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Web.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Web.HttpUtility.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Windows.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.Linq.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.ReaderWriter.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.Serialization.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.XDocument.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.XmlDocument.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.XmlSerializer.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.XPath.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/System.Xml.XPath.XDocument.dll
+ref = /home/noname/.dotnet/packs/Microsoft.NETCore.App.Ref/6.0.1/ref/net6.0/WindowsBase.dll
+  app -> /mnt/c/tmp/Nemerle.Core/prj/bin/app.exe
+
+Build succeeded.
+
+/home/noname/.dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/Sdk/Sdk.targets(37,3): warning MSB4011: "/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.targets" cannot be imported again. It was already imported at "/home/noname/.nuget/packages/nemerle.core/1.1.0/content/Nemerle.MSBuild.targets (38,3)". This is most likely a build authoring error. This subsequent import will be ignored. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/Sdk/Sdk.targets(37,3): warning MSB4011: "/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.targets" cannot be imported again. It was already imported at "/home/noname/.nuget/packages/nemerle.core/1.1.0/content/Nemerle.MSBuild.targets (38,3)". This is most likely a build authoring error. This subsequent import will be ignored. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "mscorlib". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "mscorlib". Choosing "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "System.Core". Choosing "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3243: No way to resolve conflict between "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "System". Choosing "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" arbitrarily. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+/home/noname/.dotnet/sdk/6.0.101/Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3276: Found conflicts between different versions of the same dependent assembly. Please set the "AutoGenerateBindingRedirects" property to true in the project file. For more information, see http://go.microsoft.com/fwlink/?LinkId=294190. [/mnt/c/tmp/Nemerle.Core/prj/app.nproj]
+    9 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.95

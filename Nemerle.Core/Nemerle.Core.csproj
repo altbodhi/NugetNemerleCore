@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dnlib.dll" />
+    <None Remove="ncc-core.dll" />
+    <None Remove="ncc-core.runtimeconfig.json" />
+    <None Remove="Nemerle.Compiler.dll" />
+    <None Remove="Nemerle.dll" />
+    <None Remove="Nemerle.Macros.dll" />
+    <None Remove="Nemerle.MSBuild.targets" />
+    <None Remove="Nemerle.Sdk.props" />
+    <None Remove="Nemerle.Sdk.targets" />
+    <None Remove="Nemerle.Tools.MSBuildTask.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="dnlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ncc-core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ncc-core.runtimeconfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.Compiler.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.Macros.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.MSBuild.targets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.Sdk.props">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.Sdk.targets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nemerle.Tools.MSBuildTask.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

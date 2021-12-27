@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+source C:\tmp\Nemerle.Core\Nemerle.Core\bin\Release\
+
+nuget Nemerle.Core
+
+storage: none
+framework: net6.0, netstandard2.0, netstandard2.1
+
